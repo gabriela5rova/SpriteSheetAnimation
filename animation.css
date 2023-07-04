@@ -3,11 +3,11 @@
 }
 
 body {
-   background: #96ffc1;
+   background: #F9E79F;
 }
 
 .Character {
-   width: calc(70px * var(--pixel-size));
+   width: calc(85px * var(--pixel-size));
    height: calc(100px * var(--pixel-size));
    overflow: hidden;
    position: relative;
@@ -16,7 +16,7 @@ body {
 
 .Character_spritesheet {
    animation: moveSpritesheet 1s steps(6) infinite;
-   width: calc(470px * var(--pixel-size));
+   width: calc(480px * var(--pixel-size));
    position: absolute;
    
 }
